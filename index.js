@@ -26,14 +26,14 @@
 
 'use strict';
 
-var React = require("react-native");
+var React = require("react");
 var {
     View,
     Text,
     StyleSheet,
     PanResponder,
     TouchableWithoutFeedback
-    } = React;
+    } = require("react-native");
 
 const PANEL_BACKGROUND = 'rgba(51,72,94,0.6)';
 const PANEL_BACKGROUND_SELECTED = 'rgba(51,72,94,0.9)';

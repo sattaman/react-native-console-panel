@@ -4,14 +4,14 @@
  */
 'use strict';
 
-var React = require('react-native');
+var React = require('react');;
 var {
   AppRegistry,
   StyleSheet,
   Text,
   View,
   TouchableHighlight,
-} = React;
+} = require('react-native');
 
 var ConsolePanel = require('react-native-console-panel').displayWhenDev();
 
